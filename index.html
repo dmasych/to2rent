@@ -1,17 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>to(2)rent</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="logo header_logo">
+        <a href="#" class="logo_link">
+          <img src="images/logo.svg" alt="logo" class="logo_link-img">
+        </a>
+      </div>
+      <nav class="menu">
+        <ul class="menu_list">
+          <li class="menu_list-item">
+            <a href="#" class="menu_list-link menu_list-link--active">О нас</a>
+          </li>
+          <li class="menu_list-item">
+            <a href="#" class="menu_list-link">Дома</a>
+          </li>
+          <li class="menu_list-item">
+            <a href="#" class="menu_list-link">Квартиры</a>
+          </li>
+          <li class="menu_list-item">
+            <a href="#" class="menu_list-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="slider">
+      <div class="slider_item" style="background-image: url(images/slider_item.jpg);"></div>
+      <div class="slider_item" style="background-image: url(images/slider_item.jpg);"></div>
+      <div class="slider_item" style="background-image: url(images/slider_item.jpg);"></div>
+    </section>
+    <section class="search">
+      <div class="serch_inner">
+        <form class="serch_form">
+          <label class="serch_form-lable">Поиск аппартаментов</label>
+          <input type="text" class="serch_form-input" placeholder="Введите город">
+          <button type="submit" class="serch_form-btn">Найти</button>
+        </form>
+      </div>
+    </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
